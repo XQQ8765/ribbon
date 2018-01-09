@@ -6,7 +6,7 @@ dependencies {
     compile 'com.google.code.findbugs:annotations:2.0.0' 
     compile "com.sun.jersey:jersey-client:${jersey_version}"
     compile "com.sun.jersey.contribs:jersey-apache-client4:${jersey_version}"
-    compile 'org.slf4j:slf4j-api:1.6.4'
+    compile 'org.slf4j:slf4j-api:1.7.25'
     compile "com.netflix.servo:servo-core:${servo_version}"
     compile "com.google.guava:guava:${guava_version}"
     compile "com.netflix.archaius:archaius-core:${archaius_version}"

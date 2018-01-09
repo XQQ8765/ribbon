@@ -2,7 +2,8 @@ dependencies {
     compile project(':ribbon-core')
     compile 'com.netflix.netflix-commons:netflix-statistics:0.1.1'
     compile "io.reactivex:rxjava:${rx_java_version}"
-    compile 'org.slf4j:slf4j-api:1.6.4'
+    //compile 'org.slf4j:slf4j-api:1.6.4'
+    compile 'org.slf4j:slf4j-api:1.7.25'
     compile "com.netflix.servo:servo-core:${servo_version}"
     compile "com.google.guava:guava:${guava_version}"
     compile "com.netflix.archaius:archaius-core:${archaius_version}"
